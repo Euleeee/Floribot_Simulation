@@ -82,7 +82,7 @@
       </visual>
   </link>
 
-   <!-- Gelenk zwischen Vorderwagen und base_link -->
+   <!-- Gelenk zwischen Vorderwagen und Base_link -->
   <joint name="base_zu_Vorderwagen" type="fixed">
        <parent link="base_link"/>
        <child link="Vorderwagen"/>
